@@ -1,5 +1,5 @@
 import textmagic.client
-client = textmagic.client.TextMagicClient('mahanmeh@buffalo.edu', '10012textmagic')
+client = textmagic.client.TextMagicClient('****', '****')
 import time
 import random
 #result = client.send("Hello, World!", "17162923620")
@@ -9,28 +9,7 @@ ADC.setup()
 pin1="P9_33"
 
 #2132633578
-"""okay it's the second day that iam trying to figure this out  I i finally could
-basically the structure is a little complicated very similar like a tree structure but i don't know
-how to call it in python
-the tree has each message as a branche
-then each branch has message id, from.timestamp, and text
-but the point is is is organized as a python dictionary so you have
- to call text if your looking for the content of
-a message
-"""
 
-"""-this is the first draft of the utility file dec 03 (2:30 am) :((((
--the second session I am working on this expression file dec 03(21:30) 
-"""
-"""this is probabely the final touch before making the circut and checking the
- location function dec 06- 03:30 am
-"""
-"""this is dec 06 5:40 pm
-"""
-"""this is dec 08 1:00 am
-"""
-"""oh god is it gonna be over :((( dec 10 2:40 am
-"""
 # content of last message
 
 def finding_last_message():
